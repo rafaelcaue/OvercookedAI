@@ -1,0 +1,4 @@
+MAS kitchen {
+    environment: my.internal.actions.Kitchen 
+    agents: staychef;
+}
