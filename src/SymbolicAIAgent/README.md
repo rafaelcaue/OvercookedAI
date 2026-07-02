@@ -6,18 +6,8 @@
 ---
 
 ## Overview
-This repository contains a **Jason 3.2.0**–based **Symbolic AI** agent that integrates with the open‑source Overcooked-AI environment. The agent provides a transparent, logic‑driven teammate for real‑time human–AI collaboration in the Overcooked cooperative cooking benchmark.
+This repository contains a **Jason**–based **Symbolic AI** agent that integrates with the open‑source Overcooked-AI environment. The agent provides a transparent, logic‑driven teammate for real‑time human–AI collaboration in the Overcooked cooperative cooking benchmark.
 
-> **Note:** This is one of two repositories required to run the full system. You will also need the Overcooked-AI environment code (see **Related Repos** below).
-
----
-
-## Links & Related Repos
-
-- **Overcooked-AI (core environment):**
-  https://github.com/margaritaradeva/OvercookedAI.git
-- **Original open-source repository (not needed):**
-  https://github.com/HumanCompatibleAI/overcooked_ai
 
 ---
 
@@ -25,10 +15,7 @@ This repository contains a **Jason 3.2.0**–based **Symbolic AI** agent that in
 
 Ensure you have the following installed:
 
-- **Jason**: v3.2.0 
-- **Java**: OpenJDK 17  (do **not** use a higher version)
-- **Git Bash**  (set as your default terminal, e.g. in VS Code, if using Windows)
-- **Gradle** - You do **NOT** need to install it as it is already contained within the repository
+- **Java**: OpenJDK 17 or higher
 
 > **Note:** Additional dependencies (Python, Node, etc.) are required by the Overcooked-AI environment-refer to its README.
 
@@ -36,14 +23,13 @@ Ensure you have the following installed:
 
 ## Setup & Installation
 
-1. **Clone this repository**:
+1. **Build the Jason environment**:
    ```bash
-   git clone https://github.com/margaritaradeva/SymbolicAIAgent
-   cd SymbolicAIAgent
-   ```
-2. **Build the Jason environment**:
+   ./gradlew
+   ```   
+   **OR if using Windows**   
    ```bash
-   gradle build
+   cmd.exe /c gradlew.bat
    ```
 3. **Run the Jason symbolic AI agent**:
    ```bash

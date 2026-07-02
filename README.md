@@ -48,7 +48,7 @@ Make sure you have installed on your system:
 ## Usage
 1. Open your browser at http://localhost
 2. Select a **kitchen layout** and **game time**, then click **Create**.
-3. In a separate terminal, follow the **Symbolic AI Agent** README to launch the Jason agent (jason kitchen.mas2j).
+3. In a separate terminal, follow the [Symbolic AI Agent README](https://github.com/rafaelcaue/OvercookedAI/tree/master/src/SymbolicAIAgent) to launch the Jason agent.
 4. The agent will join automatically as Player 2. Play together and observe real-time human-AI coordination!
 
 ---
