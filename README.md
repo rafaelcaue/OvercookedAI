@@ -8,17 +8,6 @@
 ## Overview  
 This repository contains the **Overcooked-AI** benchmark environment in which a human player can team up with a Jason symbolic AI agent to prepare and serve soups under time pressure. It provides the game server, frontend UI, and Docker configurations needed to launch the kitchen simulation.
 
-> **Note:** This is one of **two** repositories required for the complete system. You will also need the [Symbolic AI Agent repo](https://github.com/margaritaradeva/SymbolicAIAgent).
-
----
-
-## Links & Related Repos
-
-- **Symbolic AI Agent (Jason)**  
-  https://github.com/margaritaradeva/SymbolicAIAgent  
-- **Original Overcooked-AI repository**  
-  https://github.com/HumanCompatibleAI/overcooked_ai  
-
 ---
 
 ## Prerequisites
@@ -38,8 +27,8 @@ Make sure you have installed on your system:
 
 1. **Clone this repository**  
    ```bash
-   git clone https://github.com/margaritaradeva/OvercookedAI.git
-   cd src/overcooked_demo
+   git clone https://github.com/rafaelcaue/OvercookedAI.git
+   cd OvercookedAI/src/overcooked_demo
    ```
 2. **Build the Docker images and start the Flask server**
    ```bash
