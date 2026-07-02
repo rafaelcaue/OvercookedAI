@@ -1,6 +1,7 @@
 # Design and Implementation of Human–AI Cooperation in a Video Game
 
 **Author:** Margarita H. Radeva 
+**Maintained by:** Rafael C. Cardoso
 
 ---
 
